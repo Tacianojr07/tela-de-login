@@ -19,14 +19,43 @@ body {
     flex-direction: column;
     justify-content: center;
     gap: 15px;  
+    background-color: #01071a;
+    padding: 35px;
+    border-radius: 20px;
 }
+.container-login .campo {
+    position: relative;
+}
+
+.container-login .campo label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    pointer-events: none;
+    color: #ffffff;
+}
+
+.container-login .campo input:focus~label,
+.container-login .campo input:valid~label
+{
+    top: -20px;
+    left: 0;
+    color: #00FF29;
+    font-size: 10px;
+    transition: all 0.5s;
+}
+
 
 .input {
     width: 100%;
     padding: 5px;
-    border-radius: 6px;
     border: none;
     outline: none;
+    background-color: transparent;
+    border-bottom: 1px solid #00FF29;
+    font-size: 18px;
+    color: #ffffff;
 }
 
 .names {

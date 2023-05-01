@@ -4,30 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>tela de login</title>
 </head>
 <body>
-    <form>
-        <h2>Login</h2>
-        <small>Please enter you login and your password</small>
+    <form class="container-login">
+        <div class="names">
+            <h2>Login</h2>
+            <small>Please enter you login and your password</small>
+        </div>
 
         <div class="campo">
-            <input type="text" />
+            <input type="text" class="input"/>
             <label>Username or Email</label>
         </div>
         <div class="campo">
-            <input type="password" />
+            <input type="password"class="input" />
             <label>Passoword</label>
         </div>
         
-        <a href="#">Forgot password?</a>
+        <a href="#" class="missPassword">Forgot password?</a>
 
         <div class="btns">
             <button  class="btn-login">Login</button>
             <button class="btn-google">Or sign-in with Google</button>
         </div>
 
-        <a href="#">Not a member yet? register</a>
+        <a href="#" class="create-account">Not a member yet? <span class="account">register</span></a>
 
     </form>
 </body>

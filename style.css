@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #1F41A9;
+    color: #ffffff;
+}
+
+.container-login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;  
+}
+
+.input {
+    width: 100%;
+    padding: 5px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+}
+
+.names {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.missPassword {
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+    color: #ffffff7c;
+    font-size: 14px;
+}
+
+.btns {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.btn-login {
+    padding: 8px;
+    background-color: #1F41A9;
+    color: #00FF29;
+    border: 2px solid #00FF29;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight:600;
+}
+
+.btn-google {
+    padding: 10px;
+    background: #1A1B22;
+    color: #ffffff;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.btn-login:hover{
+    background-color: #00FF29;
+    cursor: pointer;
+    color: #ffffff;
+    transition: all 0.5s;
+}
+
+.btn-google:hover{
+    background-color: #000000;
+    cursor: pointer;
+    color: #ffffff;
+    transition: all 0.5s;
+}
+
+.create-account {
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.account {
+    color: #ffffff7c;
+}
